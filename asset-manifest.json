@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cozastore/static/css/main.e7e98131.chunk.css",
-    "main.js": "/cozastore/static/js/main.9ea5a27a.chunk.js",
-    "main.js.map": "/cozastore/static/js/main.9ea5a27a.chunk.js.map",
+    "main.css": "/cozastore/static/css/main.3aedcc7d.chunk.css",
+    "main.js": "/cozastore/static/js/main.8f2e43fc.chunk.js",
+    "main.js.map": "/cozastore/static/js/main.8f2e43fc.chunk.js.map",
     "runtime-main.js": "/cozastore/static/js/runtime-main.40568de3.js",
     "runtime-main.js.map": "/cozastore/static/js/runtime-main.40568de3.js.map",
     "static/js/2.6ac2b8e9.chunk.js": "/cozastore/static/js/2.6ac2b8e9.chunk.js",
@@ -10,14 +10,13 @@
     "static/js/3.e2cd98d4.chunk.js": "/cozastore/static/js/3.e2cd98d4.chunk.js",
     "static/js/3.e2cd98d4.chunk.js.map": "/cozastore/static/js/3.e2cd98d4.chunk.js.map",
     "index.html": "/cozastore/index.html",
-    "static/css/main.e7e98131.chunk.css.map": "/cozastore/static/css/main.e7e98131.chunk.css.map",
-    "static/js/2.6ac2b8e9.chunk.js.LICENSE.txt": "/cozastore/static/js/2.6ac2b8e9.chunk.js.LICENSE.txt",
-    "static/media/banner.module.scss": "/cozastore/static/media/banner.5060112f.webp"
+    "static/css/main.3aedcc7d.chunk.css.map": "/cozastore/static/css/main.3aedcc7d.chunk.css.map",
+    "static/js/2.6ac2b8e9.chunk.js.LICENSE.txt": "/cozastore/static/js/2.6ac2b8e9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.40568de3.js",
     "static/js/2.6ac2b8e9.chunk.js",
-    "static/css/main.e7e98131.chunk.css",
-    "static/js/main.9ea5a27a.chunk.js"
+    "static/css/main.3aedcc7d.chunk.css",
+    "static/js/main.8f2e43fc.chunk.js"
   ]
 }
