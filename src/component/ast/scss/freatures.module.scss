@@ -1,0 +1,246 @@
+@import "./varibale";
+@import "./mixin.scss";
+
+#track {
+  padding-top: 20px;
+  padding-bottom: 10;
+
+  div {
+    font-size: 16px;
+    color: $bgBlackColor;
+    a {
+      color: $logoColor;
+    }
+
+    a:hover {
+      color: $buttonBg;
+    }
+
+    i {
+      font-size: 13px;
+      color: $logoColor;
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+  }
+}
+
+#mainSection {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .tableContent {
+    overflow: auto;
+    margin-bottom: 30px;
+
+    table {
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      width: 100%;
+
+      tr {
+        border: 1px solid $bgBlackColor;
+      }
+      thead {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $lightGray;
+
+        td {
+          padding: 10px 40px;
+        }
+      }
+
+      tbody {
+        td {
+          text-align: center;
+          color: $logoColor;
+          font-size: 17px;
+
+          .productDesign {
+            display: flex;
+            align-items: center;
+            img {
+              width: 60px;
+              height: 80px;
+              margin-right: 30px;
+            }
+          }
+
+          .countingBtn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            button,
+            p {
+              border: 1px solid $bgBlackColor;
+              width: 40px;
+              height: 40px;
+              font-size: 18px;
+              font-weight: 500;
+              background: transparent;
+            }
+
+            p {
+              background: #f7f7f7;
+              border-left: none;
+              border-right: none;
+              line-height: 36px;
+            }
+
+            button:hover {
+              background: $buttonBg;
+              color: $colorWhite;
+            }
+          }
+        }
+
+        td:first-child {
+          padding: 30px 0 30px 40px;
+        }
+        td:last-child {
+          padding: 30px 40px 30px 0;
+        }
+      }
+
+      .couponeCode {
+        tr {
+          td {
+            input {
+              border-radius: 50px;
+              color: $logoColor;
+              font-size: 16px;
+              padding: 7px 10px;
+              outline: none;
+              border: 1px solid $bgBlackColor;
+              width: 100%;
+            }
+
+            table {
+              width: 100%;
+              margin-bottom: 0;
+
+              tr {
+                border: none;
+                td {
+                  text-align: center;
+                  padding: 0;
+
+                  button {
+                    @include Button(
+                      $bg: $btnGray,
+                      $color: $navColor,
+                      $fontSize: 13px,
+                      $padding: 10px 30px
+                    );
+                    font-weight: 600;
+                  }
+
+                  button:hover {
+                    color: $colorWhite;
+                    background: $buttonBg;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    border: 1px solid $bgBlackColor;
+    padding: 25px;
+
+    h3 {
+      font-size: 24px;
+      color: $navColor;
+      text-transform: uppercase;
+    }
+
+    .price,
+    .shipping,
+    .total {
+      display: flex;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .textBold {
+        text-transform: capitalize;
+        margin-right: 20px;
+        font-size: 19px;
+        font-weight: 600;
+        color: $navColor;
+      }
+    }
+
+    .price,
+    .total {
+      span {
+        font-size: 19px;
+        font-weight: 600;
+        color: $navColor;
+      }
+    }
+
+    .shipping {
+      border-top: 1px dotted $buttonBg;
+      border-bottom: 1px dotted $buttonBg;
+
+      .address {
+        padding-right: 15px;
+
+        p {
+          color: $bgBlackColor;
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+
+        span {
+          text-transform: uppercase;
+          font-size: 15px;
+          font-weight: normal;
+          color: $bgBlack;
+        }
+
+        input,
+        select {
+          margin-top: 10px;
+          width: 100%;
+          padding: 5px 10px;
+          border: 1px solid $bgBlackColor;
+          outline: none;
+          border-radius: 5px;
+          color: $bgBlackColor;
+        }
+      }
+
+      button {
+        @include Button($fontSize: 14px, $bg: $btnGray, $color: $navColor);
+        margin-top: 15px;
+        width: 100%;
+        font-weight: 600;
+      }
+
+      button:hover {
+        background: $buttonBg;
+        color: $colorWhite;
+      }
+    }
+
+    .checkOut {
+      button {
+        @include Button($fontSize: 15px, $bg: $bgBlack, $color: $colorWhite);
+        width: 100%;
+        font-weight: 600;
+      }
+
+      button:hover {
+        background: $buttonBg;
+        color: $colorWhite;
+      }
+    }
+  }
+}

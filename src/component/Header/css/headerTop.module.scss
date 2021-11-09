@@ -1,0 +1,64 @@
+@import "../../ast/scss/varibale";
+@import "../../ast/scss/mixin";
+
+header {
+  position: relative;
+  z-index: 9999;
+}
+
+.headerTop {
+  background: $bgBlack;
+  color: $bgBlackColor;
+  font-size: 14px;
+
+  .content {
+    @include spaceBetween();
+
+    ul {
+      overflow: hidden;
+
+      li:first-child {
+        border-left: 1px solid $bgBlackColor;
+      }
+
+      li {
+        float: left;
+        padding: 10px 20px;
+        border-right: 1px solid $bgBlackColor;
+
+        a {
+          color: $bgBlackColor;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .content {
+      display: block;
+      text-align: center;
+
+      p {
+        margin-bottom: 10px;
+        font-size: 17px;
+      }
+
+      ul {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  @media (max-width: 424px) {
+    .content {
+      ul {
+        li {
+          padding: 10px 5px;
+        }
+      }
+    }
+  }
+}
