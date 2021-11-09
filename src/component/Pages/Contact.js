@@ -45,7 +45,7 @@ const Contact = () => {
 
     return (
         <>
-            <Banner imgName="banner.webp" tilte="contact" />
+            <Banner imgName="blogBanner.webp" tilte="contact" />
 
             <div id={classes.mainSection}>
                 <Container>

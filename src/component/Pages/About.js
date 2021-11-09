@@ -14,7 +14,7 @@ const ImgBox = ({ img }) => (
 
 const About = () => (
     <>
-        <Banner tilte="about" imgName="banner.webp" />
+        <Banner tilte="about" imgName="blogBanner.webp" />
 
         <div id={classes.mainSection}>
             <Container>
