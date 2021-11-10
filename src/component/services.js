@@ -23,11 +23,7 @@ const Services = () => (
                         <a href="-">
                             <figure>
                                 <div className={classes.overly} />
-                                <img
-                                    src={`./img/${data.img}`}
-                                    alt="services"
-                                    className="img-fluid"
-                                />
+                                <img src={`img/${data.img}`} alt="services" className="img-fluid" />
                                 <figcaption>
                                     <div className={classes.top}>
                                         <h3>{data.heading}</h3>

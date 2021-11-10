@@ -6,7 +6,7 @@ const ImgBox = ({ img }) => (
     <Col className={classes.content} size="4" mdSize="12">
         <figure>
             <div className={classes.position}>
-                <img src={`../img/${img}`} alt="about" className="img-fluid" />
+                <img src={`img/${img}`} alt="about" className="img-fluid" />
             </div>
         </figure>
     </Col>

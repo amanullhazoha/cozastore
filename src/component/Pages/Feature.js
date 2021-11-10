@@ -5,7 +5,7 @@ const TableRow = () => (
     <tr>
         <td>
             <div className={classes.productDesign}>
-                <img src="../img/product1.webp" alt="product" className="img-fluid" />
+                <img src="img/product1.webp" alt="product" className="img-fluid" />
                 <p>Fresh Strawberries</p>
             </div>
         </td>

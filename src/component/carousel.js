@@ -54,7 +54,7 @@ const Carousel = () => {
 
     return (
         <section id={classes.carousel}>
-            <div className={classes.bgImg} style={{ backgroundImage: `url(./img/${value.bgImg})` }}>
+            <div className={classes.bgImg} style={{ backgroundImage: `url(img/${value.bgImg})` }}>
                 <Container className={classes.position}>
                     <div className={classes.content}>
                         <h2>{value.heading1}</h2>
