@@ -10,7 +10,7 @@ const Product = () => (
                     <div className={classes.content}>
                         <figure>
                             <img
-                                src={`./img/${product.thumbnil}`}
+                                src={`img/${product.thumbnil}`}
                                 alt="product"
                                 className="img-fluid"
                             />
